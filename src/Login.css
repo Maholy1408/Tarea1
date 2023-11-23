@@ -1,0 +1,81 @@
+.login-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  .form-group {
+    text-align: left;
+    margin: 10px 0;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #0cbb40;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #10d34b;
+  }
+  
+  .form-group a {
+    text-decoration: none;
+    color: #000203;
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: center;
+    transition: color 0.3s;
+  }
+  
+  .form-group a:hover {
+    text-decoration: underline;
+    color: #195e24;
+  }
+  
+  .centered-title {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Dentro de Login.css */
+
+/* Contenedor del formulario */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* Estilos para el botón */
+  .form-group a {
+    margin-top: 10px; /* Ajusta el espacio entre el formulario y el botón */
+  }
+  
